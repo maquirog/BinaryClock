@@ -1,0 +1,359 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+/*#clickme {
+	-fx-font-size: 30px;
+	-fx-background-color: rgba(255,255,255, 0.80);
+	-fx-text-fill: blue;
+	-fx-padding: 6 6 6 6;
+	-fx-border-radius: 8;
+	-fx-font-weight: bold;
+}*/
+
+#yearLabel {
+    -fx-font-size: 80pt;
+    -fx-font-family: "Arial";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+#slash1 {
+    -fx-font-size: 80pt;
+    -fx-font-family: "Arial";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+#monthLabel {
+    -fx-font-size: 80pt;
+    -fx-font-family: "Arial";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+#slash0 {
+    -fx-font-size: 80pt;
+    -fx-font-family: "Arial";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+#dayLabel {
+    -fx-font-size: 80pt;
+    -fx-font-family: "Arial";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+#hourLabel {
+    -fx-font-size: 80pt;
+    -fx-font-family: "Arial";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+#twoPoints1 {
+    -fx-font-size: 80pt;
+    -fx-font-family: "Arial";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+#minLabel {
+    -fx-font-size: 80pt;
+    -fx-font-family: "Arial";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+#twoPoints0 {
+    -fx-font-size: 80pt;
+    -fx-font-family: "Arial";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+#secLabel {
+    -fx-font-size: 80pt;
+    -fx-font-family: "Arial";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+#showHideDateButton {
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        /*linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),*/
+        linear-gradient(to bottom, derive(-fx-color,-100%) 0%, derive(-fx-color,-100%) 0%, derive(-fx-color,-0%) 0%, derive(-fx-color,-0%) 0%);
+        /*linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);*/
+    -fx-min-width: 100px;
+    -fx-min-height: 100px;
+    -fx-max-width: 100px;
+    -fx-max-height: 100px;
+    -fx-background-radius: 60;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 12px;
+    -fx-text-fill: #311c09;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+#showHideTimeButton {
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        /*linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),*/
+        linear-gradient(to bottom, derive(-fx-color,-100%) 0%, derive(-fx-color,-100%) 0%, derive(-fx-color,-0%) 0%, derive(-fx-color,-0%) 0%);
+        /*linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);*/
+    -fx-min-width: 100px;
+    -fx-min-height: 100px;
+    -fx-max-width: 100px;
+    -fx-max-height: 100px;
+    -fx-background-radius: 60;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 12px;
+    -fx-text-fill: #311c09;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+
+
+#run {
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        /*linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),*/
+        linear-gradient(to bottom, derive(-fx-color,-100%) 0%, derive(-fx-color,-100%) 0%, derive(-fx-color,-0%) 0%, derive(-fx-color,-0%) 0%);
+        /*linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);*/
+    -fx-min-width: 100px;
+    -fx-min-height: 100px;
+    -fx-max-width: 100px;
+    -fx-max-height: 100px;
+    -fx-background-radius: 60;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 16px;
+    -fx-text-fill: #311c09;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+
+#plusSec {
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        /*linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),*/
+        linear-gradient(to bottom, derive(-fx-color,-100%) 0%, derive(-fx-color,-100%) 0%, derive(-fx-color,-0%) 0%, derive(-fx-color,-0%) 0%);
+        /*linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);*/
+    -fx-min-width: 80px;
+    -fx-min-height: 80px;
+    -fx-max-width: 80px;
+    -fx-max-height: 80px;
+    -fx-background-radius: 80;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 16px;
+    -fx-text-fill: #311c09;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+#minusSec {
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        /*linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),*/
+        linear-gradient(to bottom, derive(-fx-color,-100%) 0%, derive(-fx-color,-100%) 0%, derive(-fx-color,-0%) 0%, derive(-fx-color,-0%) 0%);
+        /*linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);*/
+    -fx-min-width: 80px;
+    -fx-min-height: 80px;
+    -fx-max-width: 80px;
+    -fx-max-height: 80px;
+    -fx-background-radius: 80;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 16px;
+    -fx-text-fill: #311c09;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+
+#plusMin {
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        /*linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),*/
+        linear-gradient(to bottom, derive(-fx-color,-100%) 0%, derive(-fx-color,-100%) 0%, derive(-fx-color,-0%) 0%, derive(-fx-color,-0%) 0%);
+        /*linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);*/
+    -fx-min-width: 80px;
+    -fx-min-height: 80px;
+    -fx-max-width: 80px;
+    -fx-max-height: 80px;
+    -fx-background-radius: 80;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 16px;
+    -fx-text-fill: #311c09;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+#minusMin {
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        /*linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),*/
+        linear-gradient(to bottom, derive(-fx-color,-100%) 0%, derive(-fx-color,-100%) 0%, derive(-fx-color,-0%) 0%, derive(-fx-color,-0%) 0%);
+        /*linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);*/
+    -fx-min-width: 80px;
+    -fx-min-height: 80px;
+    -fx-max-width: 80px;
+    -fx-max-height: 80px;
+    -fx-background-radius: 80;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 16px;
+    -fx-text-fill: #311c09;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+#plusHour {
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        /*linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),*/
+        linear-gradient(to bottom, derive(-fx-color,-100%) 0%, derive(-fx-color,-100%) 0%, derive(-fx-color,-0%) 0%, derive(-fx-color,-0%) 0%);
+        /*linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);*/
+    -fx-min-width: 80px;
+    -fx-min-height: 80px;
+    -fx-max-width: 80px;
+    -fx-max-height: 80px;
+    -fx-background-radius: 80;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 16px;
+    -fx-text-fill: #311c09;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+#minusHour {
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        /*linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),*/
+        linear-gradient(to bottom, derive(-fx-color,-100%) 0%, derive(-fx-color,-100%) 0%, derive(-fx-color,-0%) 0%, derive(-fx-color,-0%) 0%);
+        /*linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);*/
+    -fx-min-width: 80px;
+    -fx-min-height: 80px;
+    -fx-max-width: 80px;
+    -fx-max-height: 80px;
+    -fx-background-radius: 80;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 16px;
+    -fx-text-fill: #311c09;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+#plusDay {
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        /*linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),*/
+        linear-gradient(to bottom, derive(-fx-color,-100%) 0%, derive(-fx-color,-100%) 0%, derive(-fx-color,-0%) 0%, derive(-fx-color,-0%) 0%);
+        /*linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);*/
+    -fx-min-width: 80px;
+    -fx-min-height: 80px;
+    -fx-max-width: 80px;
+    -fx-max-height: 80px;
+    -fx-background-radius: 80;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 16px;
+    -fx-text-fill: #311c09;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+#minusDay {
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        /*linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),*/
+        linear-gradient(to bottom, derive(-fx-color,-100%) 0%, derive(-fx-color,-100%) 0%, derive(-fx-color,-0%) 0%, derive(-fx-color,-0%) 0%);
+        /*linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);*/
+    -fx-min-width: 80px;
+    -fx-min-height: 80px;
+    -fx-max-width: 80px;
+    -fx-max-height: 80px;
+    -fx-background-radius: 80;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 16px;
+    -fx-text-fill: #311c09;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+#plusMonth {
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        /*linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),*/
+        linear-gradient(to bottom, derive(-fx-color,-100%) 0%, derive(-fx-color,-100%) 0%, derive(-fx-color,-0%) 0%, derive(-fx-color,-0%) 0%);
+        /*linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);*/
+    -fx-min-width: 80px;
+    -fx-min-height: 80px;
+    -fx-max-width: 80px;
+    -fx-max-height: 80px;
+    -fx-background-radius: 80;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 16px;
+    -fx-text-fill: #311c09;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+#minusMonth {
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        /*linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),*/
+        linear-gradient(to bottom, derive(-fx-color,-100%) 0%, derive(-fx-color,-100%) 0%, derive(-fx-color,-0%) 0%, derive(-fx-color,-0%) 0%);
+        /*linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);*/
+    -fx-min-width: 80px;
+    -fx-min-height: 80px;
+    -fx-max-width: 80px;
+    -fx-max-height: 80px;
+    -fx-background-radius: 80;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 16px;
+    -fx-text-fill: #311c09;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+#plusYear {
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        /*linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),*/
+        linear-gradient(to bottom, derive(-fx-color,-100%) 0%, derive(-fx-color,-100%) 0%, derive(-fx-color,-0%) 0%, derive(-fx-color,-0%) 0%);
+        /*linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);*/
+    -fx-min-width: 80px;
+    -fx-min-height: 80px;
+    -fx-max-width: 80px;
+    -fx-max-height: 80px;
+    -fx-background-radius: 80;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 14px;
+    -fx-text-fill: #311c09;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+#minusYear {
+    -fx-background-color:
+        -fx-shadow-highlight-color,
+        /*linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),*/
+        linear-gradient(to bottom, derive(-fx-color,-100%) 0%, derive(-fx-color,-100%) 0%, derive(-fx-color,-0%) 0%, derive(-fx-color,-0%) 0%);
+        /*linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);*/
+    -fx-min-width: 80px;
+    -fx-min-height: 80px;
+    -fx-max-width: 80px;
+    -fx-max-height: 80px;
+    -fx-background-radius: 80;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 14px;
+    -fx-text-fill: #311c09;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+
+#pane {
+	-fx-background-color: rgba(50,50,50, 0.80);
+}

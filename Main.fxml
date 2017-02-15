@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="1700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Clock">
+   <children>
+      <Button fx:id="run" layoutX="886.0" layoutY="700.0" mnemonicParsing="false" onAction="#clockRun" prefHeight="100.0" prefWidth="100.0" text="Run&#10;Reset" textAlignment="CENTER" />
+      <Button fx:id="showHideTimeButton" layoutX="886.0" layoutY="360.0" mnemonicParsing="false" onAction="#clockShowHideTime" prefHeight="100.0" prefWidth="100.0" text="Show&#10;Hide" textAlignment="CENTER" />
+      <Circle fx:id="secUni0" fill="BLACK" layoutX="740.0" layoutY="540.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="secUni1" fill="BLACK" layoutX="740.0" layoutY="460.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="secUni2" fill="BLACK" layoutX="740.0" layoutY="380.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="secUni3" fill="BLACK" layoutX="740.0" layoutY="300.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="secDec0" fill="BLACK" layoutX="660.0" layoutY="540.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="secDec1" fill="BLACK" layoutX="660.0" layoutY="460.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="secDec2" fill="BLACK" layoutX="660.0" layoutY="380.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="minUni0" fill="BLACK" layoutX="540.0" layoutY="540.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="minUni1" fill="BLACK" layoutX="540.0" layoutY="460.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="minUni2" fill="BLACK" layoutX="540.0" layoutY="380.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="minUni3" fill="BLACK" layoutX="540.0" layoutY="300.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="minDec0" fill="BLACK" layoutX="460.0" layoutY="540.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="minDec1" fill="BLACK" layoutX="460.0" layoutY="460.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="minDec2" fill="BLACK" layoutX="460.0" layoutY="380.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="hourUni0" fill="BLACK" layoutX="340.0" layoutY="540.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="hourUni1" fill="BLACK" layoutX="340.0" layoutY="460.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="hourUni2" fill="BLACK" layoutX="340.0" layoutY="380.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="hourUni3" fill="BLACK" layoutX="340.0" layoutY="300.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="hourDec0" fill="BLACK" layoutX="260.0" layoutY="540.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="hourDec1" fill="BLACK" layoutX="260.0" layoutY="460.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Label fx:id="minLabel" alignment="CENTER" layoutX="430.0" layoutY="160.0" prefHeight="100.0" prefWidth="140.0" textAlignment="CENTER" />
+      <Label fx:id="hourLabel" alignment="CENTER" layoutX="230.0" layoutY="160.0" prefHeight="100.0" prefWidth="140.0" textAlignment="CENTER">
+         <font>
+            <Font size="50.0" />
+         </font></Label>
+      <Label fx:id="secLabel" alignment="CENTER" layoutX="630.0" layoutY="160.0" prefHeight="100.0" prefWidth="140.0" textAlignment="CENTER" />
+      <Label fx:id="twoPoints1" alignment="CENTER" layoutX="370.0" layoutY="160.0" prefHeight="100.0" prefWidth="60.0" textAlignment="CENTER" />
+      <Label fx:id="twoPoints0" alignment="CENTER" layoutX="570.0" layoutY="160.0" prefHeight="100.0" prefWidth="60.0" textAlignment="CENTER" />
+      <Button fx:id="showHideDateButton" layoutX="886.0" layoutY="1020.0" mnemonicParsing="false" onAction="#clockShowHideDate" prefHeight="100.0" prefWidth="100.0" text="Show&#10;Hide" textAlignment="CENTER" />
+      <Circle fx:id="yearUni0" fill="BLACK" layoutX="820.0" layoutY="1280.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="yearUni1" fill="BLACK" layoutX="820.0" layoutY="1200.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="yearUni2" fill="BLACK" layoutX="820.0" layoutY="1120.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="yearUni3" fill="BLACK" layoutX="820.0" layoutY="1040.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="yearDec0" fill="BLACK" layoutX="740.0" layoutY="1280.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="yearDec1" fill="BLACK" layoutX="740.0" layoutY="1200.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="yearDec2" fill="BLACK" layoutX="740.0" layoutY="1120.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="monthUni0" fill="BLACK" layoutX="460.0" layoutY="1280.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="monthUni1" fill="BLACK" layoutX="460.0" layoutY="1200.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="monthUni2" fill="BLACK" layoutX="460.0" layoutY="1120.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="monthUni3" fill="BLACK" layoutX="460.0" layoutY="1040.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="monthDec0" fill="BLACK" layoutX="380.0" layoutY="1280.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="dayUni0" fill="BLACK" layoutX="260.0" layoutY="1280.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="dayUni1" fill="BLACK" layoutX="260.0" layoutY="1200.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="dayUni2" fill="BLACK" layoutX="260.0" layoutY="1120.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="dayUni3" fill="BLACK" layoutX="260.0" layoutY="1040.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="dayDec0" fill="BLACK" layoutX="180.0" layoutY="1280.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="dayDec1" fill="BLACK" layoutX="180.0" layoutY="1200.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Label fx:id="monthLabel" alignment="CENTER" layoutX="350.0" layoutY="900.0" prefHeight="100.0" prefWidth="140.0" textAlignment="CENTER" />
+      <Label fx:id="dayLabel" alignment="CENTER" layoutX="150.0" layoutY="900.0" prefHeight="100.0" prefWidth="140.0" textAlignment="CENTER">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Label fx:id="yearLabel" alignment="CENTER" layoutX="550.0" layoutY="900.0" prefHeight="100.0" prefWidth="300.0" textAlignment="CENTER" />
+      <Label fx:id="slash1" alignment="CENTER" layoutX="290.0" layoutY="900.0" prefHeight="100.0" prefWidth="60.0" textAlignment="CENTER" />
+      <Label fx:id="slash0" alignment="CENTER" layoutX="490.0" layoutY="900.0" prefHeight="100.0" prefWidth="60.0" textAlignment="CENTER" />
+      <Circle fx:id="yearHund0" fill="BLACK" layoutX="660.0" layoutY="1280.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="yearHund1" fill="BLACK" layoutX="660.0" layoutY="1200.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="yearHund2" fill="BLACK" layoutX="660.0" layoutY="1120.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="yearHund3" fill="BLACK" layoutX="660.0" layoutY="1040.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="yearDec3" fill="BLACK" layoutX="740.0" layoutY="1040.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="yearThou0" fill="BLACK" layoutX="580.0" layoutY="1280.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="yearThou1" fill="BLACK" layoutX="580.0" layoutY="1200.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="yearThou2" fill="BLACK" layoutX="580.0" layoutY="1120.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="yearThou3" fill="BLACK" layoutX="580.0" layoutY="1040.0" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+     <!-- <Button fx:id="plusSec" layoutX="660.0" layoutY="580.0" mnemonicParsing="false" onAction="#clockShowHideTime" prefHeight="80.0" prefWidth="80.0" text="+" textAlignment="CENTER" />
+      <Button fx:id="minusSec" layoutX="660.0" layoutY="680.0" mnemonicParsing="false" onAction="#clockShowHideTime" prefHeight="80.0" prefWidth="80.0" text="-" textAlignment="CENTER" />
+      <Button fx:id="plusMin" layoutX="460.0" layoutY="580.0" mnemonicParsing="false" onAction="#clockShowHideTime" prefHeight="80.0" prefWidth="80.0" text="+" textAlignment="CENTER" />
+      <Button fx:id="minusMin" layoutX="460.0" layoutY="680.0" mnemonicParsing="false" onAction="#clockShowHideTime" prefHeight="80.0" prefWidth="80.0" text="-" textAlignment="CENTER" />
+      <Button fx:id="plusHour" layoutX="260.0" layoutY="580.0" mnemonicParsing="false" onAction="#clockShowHideTime" prefHeight="80.0" prefWidth="80.0" text="+" textAlignment="CENTER" />
+      <Button fx:id="minusHour" layoutX="260.0" layoutY="680.0" mnemonicParsing="false" onAction="#clockShowHideTime" prefHeight="80.0" prefWidth="80.0" text="-" textAlignment="CENTER" />
+      <Button fx:id="plusYear" layoutX="660.0" layoutY="1320.0" mnemonicParsing="false" onAction="#clockShowHideTime" prefHeight="80.0" prefWidth="80.0" text="+" textAlignment="CENTER" />
+      <Button fx:id="minusYear" layoutX="660.0" layoutY="1420.0" mnemonicParsing="false" onAction="#clockShowHideTime" prefHeight="80.0" prefWidth="80.0" text="-" textAlignment="CENTER" />
+      <Button fx:id="plusMonth" layoutX="380.0" layoutY="1320.0" mnemonicParsing="false" onAction="#clockShowHideTime" prefHeight="80.0" prefWidth="80.0" text="+" textAlignment="CENTER" />
+      <Button fx:id="minusMonth" layoutX="380.0" layoutY="1420.0" mnemonicParsing="false" onAction="#clockShowHideTime" prefHeight="80.0" prefWidth="80.0" text="-" textAlignment="CENTER" />
+      <Button fx:id="plusDay" layoutX="180.0" layoutY="1320.0" mnemonicParsing="false" onAction="#clockShowHideDate" prefHeight="80.0" prefWidth="80.0" text="+" textAlignment="CENTER" />
+      <Button fx:id="minusDay" layoutX="180.0" layoutY="1420.0" mnemonicParsing="false" onAction="#clockShowHideTime" prefHeight="80.0" prefWidth="80.0" text="-" textAlignment="CENTER" />-->
+   </children>
+</AnchorPane>
